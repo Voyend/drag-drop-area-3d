@@ -1,0 +1,57 @@
+# ==========================================
+# Godot 4+ Specific
+# ==========================================
+# Godot 4 generates this folder for cache and temporary files.
+# It should never be committed to version control.
+.godot/
+
+# NOTE: Do NOT ignore *.uid files in Godot 4! 
+# Godot 4 uses .uid files to track resources. Ignoring them will break your project.
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory~
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (Rider, IntelliJ, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim/Neovim
+*.swp
+*.swo
+tags
+
+# ==========================================
+# Exports and Builds (Optional)
+# ==========================================
+build/
+dist/
+*.exe
+*.dmg
+*.apk
+*.pck
